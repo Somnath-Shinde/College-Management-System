@@ -1,0 +1,158 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.logo2 {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.content {
+  flex-grow: 1;
+  padding: 2% 0% 2% 0%;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+h1.name {
+  font-size: 24px;
+  color: hsl(57, 94%, 49%);
+}
+
+.objective{
+    text-align:start;
+    padding-left: 25%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.navbar-nav > .nav-item , .nav-item.dropdown , .nav-link dropdown{
+padding-left: 40px;
+font-size: 20px;
+}
+
+.navbar-toggler:hover + .collapse, .collapse:hover {
+display: block !important;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+display: block;
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+display: block;
+
+}
+
+.footer .nav-item.dropdown .dropdown-menu {
+  bottom: 100%; 
+}
+
+.footer .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction:row;
+    text-align: center;
+  }
+
+  .content {
+  	flex-grow:1;
+  	padding: 2% 0% 2% 0%;
+   }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .logo2 {
+    display: none; /* Hide the second image on mobile */
+  }
+  
+  h6 {
+    font-size: 10px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  h1.name {
+    font-size: 20px;
+    color: hsl(57, 94%, 49%);
+  }
+
+  .navbar-nav > .nav-item.dropdown + .nav-item.dropdown {
+    padding-right: 10px;
+    
+  }
+  
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .footer .nav-item.dropdown .dropdown-menu {
+  transform: translateY(-100%);  Move the dropdown menu above the navbar items 
+}
+
+.footer .navbar-toggler {
+  display: none;  Hide the toggle button for the footer navbar 
+ } 
+
+.footer .navbar-collapse {
+  display: flex !important;  Ensure the navbar items remain visible 
+  
+}
+.footer .navbar-nav {
+  flex-direction: row !important; Display navbar items horizontally 
+  flex-wrap: wrap;
+}
+.footer .navbar-nav .dropdown-menu {
+  position: static;  Ensure dropdown menus display properly 
+  
+ } 
+.footer .navbar-nav .nav-link {
+  font-size: 14px;  Adjust the font size as needed 
+  
+}
+ .footer .nav-item {
+  margin-right: 20px;  Add spacing between navbar items 
+ 
+} */
+.footer{
+  display: none;
+}
+}
+
+
+.student{
+    margin: 100px;
+    
+}

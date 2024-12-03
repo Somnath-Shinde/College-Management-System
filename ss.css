@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo, .logo2 {
+    max-width: 100px;
+    margin: 10px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.student {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.student h1 {
+    margin-bottom: 20px;
+}
+
+.student label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.student select,
+.student input[type="text"],
+.student input[type="tel"],
+.student input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.student input[type="radio"] {
+    margin-right: 10px;
+}
+
+.student b {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+.student input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.logo2 {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.content {
+  flex-grow: 1;
+  padding: 2% 0% 2% 0%;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+h1.name {
+  font-size: 24px;
+  color: hsl(57, 94%, 49%);
+}
+
+.objective{
+    text-align:start;
+    padding-left: 25%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.navbar-nav > .nav-item , .nav-item.dropdown , .nav-link dropdown{
+padding-left: 40px;
+font-size: 20px;
+}
+
+.navbar-toggler:hover + .collapse, .collapse:hover {
+display: block !important;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+display: block;
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+display: block;
+
+}
+
+.footer .nav-item.dropdown .dropdown-menu {
+  bottom: 100%; 
+}
+
+.footer .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction:row;
+    text-align: center;
+  }
+
+  .content {
+  	flex-grow:1;
+  	padding: 2% 0% 2% 0%;
+   }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .logo2 {
+    display: none; /* Hide the second image on mobile */
+  }
+  
+  h6 {
+    font-size: 10px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  h1.name {
+    font-size: 20px;
+    color: hsl(57, 94%, 49%);
+  }
+
+  .navbar-nav > .nav-item.dropdown + .nav-item.dropdown {
+    padding-right: 10px;
+    
+  }
+  
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .footer .nav-item.dropdown .dropdown-menu {
+  transform: translateY(-100%);  Move the dropdown menu above the navbar items 
+}
+
+.footer .navbar-toggler {
+  display: none;  Hide the toggle button for the footer navbar 
+ } 
+
+.footer .navbar-collapse {
+  display: flex !important;  Ensure the navbar items remain visible 
+  
+}
+.footer .navbar-nav {
+  flex-direction: row !important; Display navbar items horizontally 
+  flex-wrap: wrap;
+}
+.footer .navbar-nav .dropdown-menu {
+  position: static;  Ensure dropdown menus display properly 
+  
+ } 
+.footer .navbar-nav .nav-link {
+  font-size: 14px;  Adjust the font size as needed 
+  
+}
+ .footer .nav-item {
+  margin-right: 20px;  Add spacing between navbar items 
+ 
+} */
+.footer{
+  display: none;
+}
+}
